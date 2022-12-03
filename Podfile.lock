@@ -1,0 +1,34 @@
+PODS:
+  - Realm (10.28.2):
+    - Realm/Headers (= 10.28.2)
+  - Realm/Headers (10.28.2)
+  - RealmSwift (10.28.2):
+    - Realm (= 10.28.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.47.1)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - RealmSwift
+  - SVProgressHUD (= 2.2.5)
+  - SwiftLint
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SVProgressHUD
+    - SwiftLint
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Realm: e617c54ad0f566b3d0f6a2abae7010de05f252ac
+  RealmSwift: 8a516a8759d80d52ebcec1ff1076f5f5159f98b2
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 2278c4e5cbdfbe01621ff040b0bf413c5740ec79
+
+COCOAPODS: 1.10.0

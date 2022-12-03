@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DetailCollectionViewCell" customModule="FinalProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="111"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="111"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slider" translatesAutoresizingMaskIntoConstraints="NO" id="Yhr-g4-5EP">
+                        <rect key="frame" x="20" y="5" width="76" height="101"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Yhr-g4-5EP" secondAttribute="height" multiplier="15:20" id="a0J-py-rEq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuyết Ưng Lĩnh Chủ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rb-JL-jG8">
+                        <rect key="frame" x="106" y="5" width="286" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fji-Iq-HgS">
+                        <rect key="frame" x="106" y="34.5" width="30" height="20"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="8U9-iR-9gd"/>
+                            <constraint firstAttribute="height" constant="20" id="p0n-Bw-97r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgd-0I-usA">
+                        <rect key="frame" x="106" y="63" width="296" height="43"/>
+                        <string key="text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kgd-0I-usA" firstAttribute="top" secondItem="fji-Iq-HgS" secondAttribute="bottom" constant="8.5" id="4Fb-p7-klu"/>
+                <constraint firstItem="1Rb-JL-jG8" firstAttribute="leading" secondItem="Yhr-g4-5EP" secondAttribute="trailing" constant="10" id="CGr-at-mgX"/>
+                <constraint firstItem="Yhr-g4-5EP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="CuG-2u-lua"/>
+                <constraint firstAttribute="trailing" secondItem="kgd-0I-usA" secondAttribute="trailing" constant="10" id="M2m-Wk-wp7"/>
+                <constraint firstItem="Yhr-g4-5EP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="NcY-Hn-URL"/>
+                <constraint firstItem="fji-Iq-HgS" firstAttribute="leading" secondItem="Yhr-g4-5EP" secondAttribute="trailing" constant="10" id="RkI-jN-ljB"/>
+                <constraint firstAttribute="bottom" secondItem="Yhr-g4-5EP" secondAttribute="bottom" constant="5" id="egf-K0-JSY"/>
+                <constraint firstItem="kgd-0I-usA" firstAttribute="leading" secondItem="Yhr-g4-5EP" secondAttribute="trailing" constant="10" id="g2p-Ub-tbW"/>
+                <constraint firstAttribute="trailing" secondItem="1Rb-JL-jG8" secondAttribute="trailing" constant="20" id="gqN-8i-NqN"/>
+                <constraint firstItem="1Rb-JL-jG8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="hfy-Jc-Jw6"/>
+                <constraint firstItem="fji-Iq-HgS" firstAttribute="top" secondItem="1Rb-JL-jG8" secondAttribute="bottom" constant="10" id="kl7-qM-8Se"/>
+            </constraints>
+            <size key="customSize" width="412" height="111"/>
+            <connections>
+                <outlet property="imageView" destination="Yhr-g4-5EP" id="OCT-VU-jEK"/>
+                <outlet property="overviewLabel" destination="kgd-0I-usA" id="0sd-fw-SqZ"/>
+                <outlet property="ratingLabel" destination="fji-Iq-HgS" id="QbD-y6-8HC"/>
+                <outlet property="titleLabel" destination="1Rb-JL-jG8" id="Hum-GJ-5Zf"/>
+            </connections>
+            <point key="canvasLocation" x="191.30434782608697" y="65.959821428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="slider" width="1920" height="1080"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
